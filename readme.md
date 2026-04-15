@@ -156,7 +156,7 @@ class AnishaSingla:
 ### 🔍 Jigsaw Toxic Comment Classifier
 **Multi-Label NLP · Bi-LSTM · Safety Audits**
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Jigsaw_Toxic_Comment_Classification)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Jigsaw)
 
 6-label toxicity classifier with 3 safety audits — identity bias probe, adversarial robustness, and calibration. ROC-AUC > 0.95 on the `toxic` label.
 
@@ -168,7 +168,7 @@ class AnishaSingla:
 ### 📊 Flipkart Sentiment Analysis
 **GloVe · LSTM · Logistic Regression**
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/SentimentalAnalysis)
 
 5-star rating classification on 169,001 Flipkart reviews. Three models compared — LR baseline at 81.4%, LSTM reaching ~90%+ — all grounded in GloVe 50d embeddings.
 
@@ -182,7 +182,7 @@ class AnishaSingla:
 ### 🎬 Product → UGC Video Pipeline
 **n8n · Veo 3.1 · Gemini · Cloudflare R2**
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/GrammyVideo)
 
 Fully automated UGC ad generation — product image in, 3 video ads out. AI persona generation → script writing → frame synthesis → Veo 3.1 video → R2 storage. 6 languages supported.
 
@@ -194,7 +194,7 @@ Fully automated UGC ad generation — product image in, 3 video ads out. AI pers
 ### 🖼️ Transfer Learning with Xception
 **TensorFlow · Keras · ImageNet**
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/TransferLearning)
 
 Two-phase transfer learning on tf_flowers and cars196 — Phase 1 freezes base (86% val acc), Phase 2 fine-tunes full Xception (91%+). Demonstrates carbon-efficient deep learning.
 
@@ -205,28 +205,70 @@ Two-phase transfer learning on tf_flowers and cars196 — Phase 1 freezes base (
 <tr>
 <td width="50%" valign="top">
 
-### ✍️ Intelliwrite — AEO/GEO Blog Engine
+### ✍️ Neo Scripting — AEO/GEO Blog Engine
 **10-Agent Pipeline · Gemini · Qdrant · MCP**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Intelliwrite)
-[![Live](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel)](https://intelliwrite-neon.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Neo-Scripting)
 
-Raw prompt → publish-ready AEO blog + LinkedIn / Twitter / Reddit posts in one API call. 10-agent AGNO pipeline with Qdrant RAG, DuckDuckGo live search, React SPA, and MCP server.
+Raw prompt → publish-ready AEO blog + LinkedIn / Twitter / Reddit posts in one API call. 10-agent AGNO pipeline with Qdrant RAG, DuckDuckGo live research, React SPA, and MCP server.
 
 `FastAPI` `AGNO` `Gemini Flash` `Qdrant` `React` `MCP` `Vercel`
 
 </td>
 <td width="50%" valign="top">
 
-### 🏷️ Toxic Comment Classifier (GBC)
-**TF-IDF · Logistic Regression · Ablation Study**
+### 🏠 NexEstate — Real Estate AI Avatar Platform
+**MERN · JWT · S3 · Razorpay · SaaS**
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Ad-Maths-MP)
-[![Kaggle](https://img.shields.io/badge/Score-0.96963-22C55E?style=flat-square&logo=kaggle)](.)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Nex-Estate)
+[![Live](https://img.shields.io/badge/Live-estate.techtrekkers.ai-10B981?style=flat-square)](https://estate.techtrekkers.ai)
 
-Multi-label classifier across 6 toxicity categories with a structured ablation study — repeat-word removal vs. keeping repeats. 0.96963 Kaggle private leaderboard score.
+AI chatbot avatars deployed via QR codes — engage leads, qualify prospects, and schedule visits 24/7. Full MERN SaaS with JWT auth, S3 image uploads, Razorpay billing, and Agenda jobs.
 
-`Python` `scikit-learn` `TF-IDF` `NLTK` · **GBC T431 · 0.96963**
+`React` `TypeScript` `Node` `MongoDB` `AWS S3` `Razorpay`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 TTT Website Chatbot
+**Hybrid RAG · FAISS · Neo4j · Claude · Redis**
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/ttt_website_chatbot)
+
+4-layer hybrid AI chatbot — Cache → Guided Flow → Structured Handler → RAG + KG + Claude. Easy 80% of queries never hit the LLM. FAISS + Neo4j hybrid retrieval for factual precision.
+
+`FastAPI` `Claude` `FAISS` `Neo4j` `Redis` `MongoDB` `spaCy`
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 ML & NLP Suite
+**7 Mini-Projects · Classification · NLP · CV**
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/ML-NLP-suite)
+
+7 self-contained notebooks covering TF-IDF classification (85% acc), LDA topic modelling, CRF medical NER, hybrid movie recommenders, extractive summarisation, image segmentation, and real-time video.
+
+`scikit-learn` `Gensim` `spaCy` `OpenCV` `NLTK` `Surprise`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎭 ShakeGen — Shakespeare Text Generator
+**GRU · Character-Level RNN · TensorFlow**
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/Anisha-Singla-22/Shakegen)
+
+GRU-based character-level language model trained on 1.1M characters of Shakespeare. Generates fake Elizabethan prose with temperature-controlled sampling. ~55% val accuracy · 10 epochs.
+
+`TensorFlow` `Keras` `GRU` `TextVectorization` · **GBC AASD-4011**
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
